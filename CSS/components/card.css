@@ -1,0 +1,108 @@
+
+.card-wrapper{
+	display: flex;	
+}
+
+.card {
+	width: 300px;
+	height: 400px;
+	margin: 10px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(360deg,transparent 50% );
+	padding: 10px;
+	text-decoration: none;
+	transition: 0.5s ease;
+
+}
+
+.card-display{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+
+}
+
+.card-display h2{
+	color: white;
+	font-family: 'Dela Gothic One';
+	position: relative;
+
+}
+
+.card-hover h3{
+	max-width: 20px 0;
+	color: white;
+}
+
+.card-hover p{
+	line-height: 1.4em;
+	color: white;
+}
+
+.card-hover .link{
+	margin: 20px 0 0;
+	color: BLACK;
+
+}
+
+.card-hover{
+	display: none;
+}
+
+.card-back {
+	margin: 10;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 10;
+	top: 10;
+	z-index: -1;
+}
+
+
+.card-back IMG{
+	width: 100%;
+	height: 100%;
+}
+
+.card A:hover{
+	background: rgba(0,0,0,0.5);
+	opacity: 1;
+	transform: translate(-30px,-30px);
+}
+
+.card A:hover .card-display{
+	display: none;
+}
+
+.card A:hover .card-hover{
+	display: block;
+}
+
+.hover {
+ opacity: 1;
+}
+
+.overlay .normal {
+ transition: .5s ease;
+}
+.overlay :hover .normal {
+ opacity: 0;
+}
+.overlay .hover {
+ background-color: rgba(0,0,0,0.5);
+}
+
+
+

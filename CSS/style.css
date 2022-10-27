@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Abyssinica+SIL&family=Open+Sans:wght@500&display=swap');
+@import url("components/container.css");
+@import url("components/btn-blue.css");
+@import url("components/banner.css");
+@import url("components/card-menu.css");
+@import url("components/card-grid.css");
+@import url("components/header.css");
+@import url("components/carousel.css");
+@import url("components/logo.css");
+@import url("components/main_pages.css");
+@import url("components/image.css");
+@import url("components/overlay.css");
+@import url("components/card-style.css");
+@import url("components/texte.css");
+@import url("components/index2.html");
+@import url("components/index3.html");
+@import url("components/card-menu2.css");
+@import url("components/card-wrapper.css");
+@import url("components/card.css");
+@import url("components/card-body.css");
+@import url("components/brunch.css");
+@import url("components/contact.css");
+
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Dela Gothic One';
+	display: flex;
+	position: relative;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	MARGIN-left:10%;
+	margin-right:10%;
+	max-width : 100%;
+heigth: auto;
+display: block;
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+H2{
+	font-family: 'Dela Gothic One';
+	font-size: 30px;
+	position: relative;
+	MARGIN-left:10%;
+	margin-right:10%;
+}
+
+H3{
+	font-family: 'Dela Gothic One';
+	font-size: 30px;
+	position: relative;
+	MARGIN-left:10%;
+	margin-right:10%;
+}
+
+H5{
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	MARGIN-left:10%;
+	margin-right:10%;
+	max-width : 100%;
+heigth: auto;
+display: block;
+}
